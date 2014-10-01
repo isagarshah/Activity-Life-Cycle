@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/ic_launcher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/ic_launcher"
+        android:background="@drawable/left" 
+        android:layout_marginRight="5dp"
+        android:paddingLeft="15dp">
+
+        <TextView
+            android:id="@+id/txtSenderName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sagar to All" />
+
+        <TextView
+           android:id="@+id/txtActualMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtSenderName"
+            android:text="Good Morng" />
+
+        <TextView
+           android:id="@+id/txtLocation"
+          	android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Near Watergate, Washington DC" 
+            android:layout_below="@id/txtActualMsg"/>
+"
+
+        <TextView
+            android:id="@+id/txtDateTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="Sep 11" />
+    </RelativeLayout>
+
+</RelativeLayout>

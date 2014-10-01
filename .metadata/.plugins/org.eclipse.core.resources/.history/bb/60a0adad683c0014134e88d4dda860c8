@@ -1,0 +1,62 @@
+package com.example.k_datetimepicker;
+
+import java.util.Calendar;
+
+import android.support.v7.app.ActionBarActivity;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.TextView;
+
+
+public class MainActivity extends ActionBarActivity {
+
+	TextView tvDate, tvTime;
+	Button btnDate, btnTime;
+	
+	int day, month, year;
+	int date, time;
+	
+	
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+    
+    
+    tvDate = (TextView) findViewById(R.id.txtDate);
+    tvTime = (TextView) findViewById(R.id.txtTime);
+    btnDate = (Button) findViewById(R.id.btnDate);
+    btnTime = (Button) findViewById(R.id.btnTime);
+    
+    Calendar cal = new Calendar();
+    day = 
+    
+    
+    btnDate.setOnClickListener(new OnClickListener() {
+		
+		@Override
+		public void onClick(View v) {
+			showDialog(date);
+			
+		}
+	});
+    
+    
+    btnTime.setOnClickListener(new OnClickListener() {
+		
+		@Override
+		public void onClick(View v) {
+			showDialog(time);
+			
+		}
+	});
+    
+    }
+
+    
+   
+}

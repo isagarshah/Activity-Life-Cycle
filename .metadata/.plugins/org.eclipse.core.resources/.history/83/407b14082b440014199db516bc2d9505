@@ -1,0 +1,57 @@
+package com.example.validateemail;
+
+import android.support.v7.app.ActionBarActivity;
+import android.text.Editable;
+import android.text.TextWatcher;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.widget.EditText;
+import android.widget.TextView;
+import android.widget.Toast;
+
+
+public class MainActivity extends ActionBarActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        
+        
+        
+        final EditText emailValidate = (EditText)findViewById(R.id.etMessage); 
+
+        final TextView textView = (TextView)findViewById(R.id.text); 
+
+        final String email = emailValidate.getText().toString().trim();
+
+        String emailPattern = "[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+";
+
+        emailValidate .addTextChangedListener(new TextWatcher() { 
+            public void afterTextChanged(Editable s) { 
+
+            if (email.matches(emailPattern) && s.length() > 0)
+                { 
+                    Toast.makeText(getApplicationContext(),"valid email address",Toast.LENGTH_SHORT).show();
+                    // or
+                    textView.setText("valid email");
+                }
+                else
+                {
+                     Toast.makeText(getApplicationContext(),"Invalid email address",Toast.LENGTH_SHORT).show();
+                    //or
+                    textView.setText("invalid email");
+                }
+            } 
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+            // other stuffs 
+            } 
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+            // other stuffs 
+            } 
+  }); 
+        }
+
+
+}

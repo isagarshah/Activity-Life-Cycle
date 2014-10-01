@@ -1,0 +1,33 @@
+package com.example.sqlite;
+
+import android.support.v7.app.ActionBarActivity;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.widget.Button;
+import android.widget.EditText;
+
+public class UpdateActivity extends ActionBarActivity {
+
+	
+	EditText etUpdateID, etFirstNameUpdate, etLastNameUpdate;
+	Button btnUpdateUser;
+	
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_update);
+	
+	
+	etUpdateID = (EditText) findViewById(R.id.etUpdateID);
+	etFirstNameUpdate = (EditText) findViewById(R.id.etFirstNameUpdate);
+	etLastNameUpdate = (EditText) findViewById(R.id.etLastNameUpdate);
+	btnUpdateUser = (Button) findViewById(R.id.btnUpdateUser);
+	
+	
+	
+	
+	}
+
+	
+}

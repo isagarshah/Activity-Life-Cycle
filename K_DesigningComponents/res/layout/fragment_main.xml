@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:background="@drawable/rounded_bg"
+    tools:context="com.designing.components.MainActivity$PlaceholderFragment" >
+    
+    <Button
+        android:layout_width="wrap_content"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Button 1" />
+    
+    <Button
+        android:layout_width="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/rounded_button"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Rounded Corners" />
+    
+    <Button
+        android:layout_width="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/semi_rounded_button"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Semi Rounded Corners" />
+    
+    <Button
+        android:layout_width="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/stroke_rounded"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Rounded + Stroke" />
+    
+    <Button
+        android:layout_width="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/selector"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text=" Selector " />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/hello_world" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_button"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/hello_world" />
+    
+    <EditText
+        android:layout_width="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/rounded_et"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:hint="Enter Name" />
+
+</LinearLayout>

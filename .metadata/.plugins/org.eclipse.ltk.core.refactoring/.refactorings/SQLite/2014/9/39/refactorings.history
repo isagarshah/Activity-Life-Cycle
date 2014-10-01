@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.example.sqlite.AllUser&apos; to &apos;AllUserActivity&apos;&#x0D;&#x0A;- Original project: &apos;SQLite&apos;&#x0D;&#x0A;- Original element: &apos;com.example.sqlite.AllUser&apos;&#x0D;&#x0A;- Renamed element: &apos;com.example.sqlite.AllUserActivity&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;AllUser&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.example.sqlite{AllUser.java[AllUser" matchStrategy="1" name="AllUserActivity" qualified="false" references="true" similarDeclarations="false" stamp="1411404125284" textual="false" version="1.0"/>
+</session>

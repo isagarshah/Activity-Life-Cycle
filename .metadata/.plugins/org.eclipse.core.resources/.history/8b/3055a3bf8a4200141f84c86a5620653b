@@ -1,0 +1,42 @@
+package com.example.sqlite;
+
+import android.content.Context;
+import android.database.sqlite.SQLiteDatabase;
+import android.database.sqlite.SQLiteDatabase.CursorFactory;
+import android.database.sqlite.SQLiteOpenHelper;
+
+public class SQLite_DBAdapter extends SQLiteOpenHelper {
+
+	public static final String DB_NAME = "users.db";
+	public static final String TABLE_NAME = "users";
+	
+	String TBL_CREATE = "create table if not exists users(uid integer primary key, "
+			+ "fname text not null, lname text not null)";
+	
+	SQLiteDatabase database;
+
+	
+	public SQLite_DBAdapter(Context context, String name, CursorFactory factory, int version) {
+		super(context, DB_NAME, null, 1);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void onCreate(SQLiteDatabase db) {
+		db.execSQL(TABLE_NAME);
+		
+	}
+
+	@Override
+	public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
+		System.out.println("DB changed from: " +oldVersion+ "to " +newVersion );
+		
+	}
+	
+	public SQLite_DBAdapter open(){
+		database = getWritableDatabase();
+		return this;
+	}
+	
+
+}

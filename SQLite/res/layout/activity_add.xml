@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.sqlite.AddActivity" >
+
+    <TextView
+        android:id="@+id/txtAddUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Add User"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/etIDAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:hint="Enter id" />
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnCreateUser"
+        android:layout_alignBottom="@+id/btnCreateUser"
+        android:layout_toRightOf="@+id/txtAddUser"
+        android:text="Reset" />
+
+    <Button
+        android:id="@+id/btnCreateUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etIDAdd"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="152dp"
+        android:text="Create User" />
+
+    <EditText
+        android:id="@+id/etFirstNameAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etIDAdd"
+        android:layout_below="@+id/etIDAdd"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:hint="Enter First Name" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/etLastNameAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnReset"
+        android:layout_alignLeft="@+id/btnCreateUser"
+        android:layout_marginBottom="21dp"
+        android:ems="10"
+        android:hint="Enter Last Name" />
+
+</RelativeLayout>

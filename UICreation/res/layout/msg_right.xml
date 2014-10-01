@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/ic_launcher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher" 
+        android:layout_alignParentRight="true"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/ic_launcher"
+        android:background="@drawable/right" 
+     	android:paddingRight="15dp">
+
+        <TextView
+            android:id="@+id/txtSenderName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Me to All" />
+
+        <TextView
+            android:id="@+id/txtActualMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtSenderName"
+            android:text="Hola !!!" />
+
+        <TextView
+            android:id="@+id/txtLocation"
+          	android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Near Times Square, New York" 
+            android:layout_below="@id/txtActualMsg"/>
+"
+
+        <TextView
+            android:id="@+id/txtDateTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/txtActualMsg"
+            android:layout_alignParentRight="true"
+            android:text="Sep 11" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
