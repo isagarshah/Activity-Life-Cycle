@@ -15,7 +15,7 @@ public class Activity2 extends ActionBarActivity {
 
 	TextView txtLogout;
 	Button btnNext;
-	
+	//checking github
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
