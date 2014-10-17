@@ -1087,7 +1087,7 @@ containing a value of this type.
     }
     public static final class id {
         public static final int SignIn=0x7f050050;
-        public static final int SignUp=0x7f050046;
+        public static final int SignUp=0x7f050045;
         public static final int action_bar=0x7f05001c;
         public static final int action_bar_activity_content=0x7f050015;
         public static final int action_bar_container=0x7f05001b;
@@ -1108,7 +1108,7 @@ containing a value of this type.
         public static final int btnCustomDialog=0x7f050044;
         public static final int btnOK=0x7f050051;
         public static final int btnSignUp=0x7f05004c;
-        public static final int button1=0x7f05004a;
+        public static final int button1=0x7f050048;
         public static final int checkbox=0x7f05002d;
         public static final int collapseActionView=0x7f05000d;
         public static final int default_activity_button=0x7f050028;
@@ -1121,7 +1121,7 @@ containing a value of this type.
         public static final int etEmail=0x7f050040;
         public static final int etLastName=0x7f05003f;
         public static final int etName=0x7f05003e;
-        public static final int etPassword=0x7f050048;
+        public static final int etPassword=0x7f05004b;
         public static final int etPhone=0x7f050042;
         public static final int etUsername=0x7f050047;
         public static final int expand_activities_button=0x7f050026;
@@ -1168,9 +1168,9 @@ containing a value of this type.
         public static final int txtAddMember=0x7f05003c;
         public static final int txtCompleteAllFields=0x7f050052;
         public static final int txtForgotPassword=0x7f05004d;
-        public static final int txtNewAccount=0x7f05004b;
+        public static final int txtNewAccount=0x7f05004a;
         public static final int txtUser=0x7f05004e;
-        public static final int txtWelcome=0x7f050045;
+        public static final int txtWelcome=0x7f050046;
         public static final int up=0x7f050021;
         public static final int useLogo=0x7f050003;
         public static final int withText=0x7f05000c;

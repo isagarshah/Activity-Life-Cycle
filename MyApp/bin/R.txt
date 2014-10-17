@@ -242,7 +242,7 @@ int drawable plus 0x7f02005b
 int drawable rounded_edittext 0x7f02005c
 int drawable update 0x7f02005d
 int id SignIn 0x7f050050
-int id SignUp 0x7f050046
+int id SignUp 0x7f050045
 int id action_bar 0x7f05001c
 int id action_bar_activity_content 0x7f050015
 int id action_bar_container 0x7f05001b
@@ -263,7 +263,7 @@ int id btnContinue 0x7f050049
 int id btnCustomDialog 0x7f050044
 int id btnOK 0x7f050051
 int id btnSignUp 0x7f05004c
-int id button1 0x7f05004a
+int id button1 0x7f050048
 int id checkbox 0x7f05002d
 int id collapseActionView 0x7f05000d
 int id default_activity_button 0x7f050028
@@ -276,7 +276,7 @@ int id etCountryCode 0x7f050041
 int id etEmail 0x7f050040
 int id etLastName 0x7f05003f
 int id etName 0x7f05003e
-int id etPassword 0x7f050048
+int id etPassword 0x7f05004b
 int id etPhone 0x7f050042
 int id etUsername 0x7f050047
 int id expand_activities_button 0x7f050026
@@ -323,9 +323,9 @@ int id top_action_bar 0x7f050020
 int id txtAddMember 0x7f05003c
 int id txtCompleteAllFields 0x7f050052
 int id txtForgotPassword 0x7f05004d
-int id txtNewAccount 0x7f05004b
+int id txtNewAccount 0x7f05004a
 int id txtUser 0x7f05004e
-int id txtWelcome 0x7f050045
+int id txtWelcome 0x7f050046
 int id up 0x7f050021
 int id useLogo 0x7f050003
 int id withText 0x7f05000c

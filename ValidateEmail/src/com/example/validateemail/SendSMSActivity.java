@@ -31,14 +31,26 @@ public class SendSMSActivity extends ActionBarActivity {
 		final String message = etSMS.getText().toString();
 		final String number = etNo.getText().toString();
 		
+		
 		btnSendSMS.setOnClickListener(new OnClickListener() {
 			
+			@SuppressWarnings("deprecation")
 			@Override
 			public void onClick(View v) {
 				
-				SmsManager smsmanager = SmsManager.getDefault();
-				smsmanager.sendTextMessage(number, null, message, null, null);
-				Toast.makeText(getApplicationContext(), "Send Successfully", Toast.LENGTH_SHORT).show();
+				try {
+					
+					@SuppressWarnings("deprecation")
+					SmsManager smsmanager = SmsManager.getDefault();
+					
+					smsmanager.sendTextMessage(number, null, message, null, null);
+					//smsmanager.sendTextMessage("+12022471070", null, message ,null,null);
+					Toast.makeText(getApplicationContext(), "Send Successfully", Toast.LENGTH_SHORT).show();
+					
+					
+				} catch (Exception e) {
+					// TODO: handle exception
+				}
 				
 			}
 		});

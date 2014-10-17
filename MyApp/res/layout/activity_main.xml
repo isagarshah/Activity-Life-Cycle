@@ -6,19 +6,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.myapp.MainActivity" 
-   >
-
-    <TextView
-        android:id="@+id/txtWelcome"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="151dp"
-        android:padding="5dp"
-        android:text="Welcome"
-        android:textSize="30sp" />
+    tools:context="com.example.myapp.MainActivity" >
 
     <TextView
         android:id="@+id/SignUp"
@@ -33,38 +21,18 @@
         android:id="@+id/etUsername"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignRight="@+id/SignUp"
         android:layout_below="@+id/SignUp"
-        android:layout_marginRight="19dp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentRight="true"
+         android:layout_alignParentLeft="true"
+        android:layout_marginRight="10dp"
         android:layout_marginTop="38dp"
-        android:ems="10"
         android:hint="Enter your email"
         android:imeOptions="actionGo"
-        android:background="@drawable/rounded_edittext"
         android:inputType="textEmailAddress" >
 
         <requestFocus />
     </EditText>
-
-    <EditText
-        android:id="@+id/etPassword"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/btnContinue"
-        android:layout_alignLeft="@+id/btnContinue"
-        android:ems="10"
-        android:hint="Enter Password"
-        android:imeOptions="actionGo"
-        android:inputType="textEmailAddress" />
-
-    <Button
-        android:id="@+id/btnContinue"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/etUsername"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="19dp"
-        android:text="Continue" />
 
     <Button
         android:id="@+id/button1"
@@ -75,7 +43,27 @@
         android:layout_alignBottom="@+id/btnContinue"
         android:layout_alignParentRight="true"
         android:layout_marginRight="31dp"
-        android:text="Add Member" 
-        android:onClick="addMember"/>
+        android:onClick="addMember"
+        android:text="Add Member" />
+
+    <TextView
+        android:id="@+id/txtWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:padding="5dp"
+        android:text="Welcome"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnContinue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etUsername"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="88dp"
+        android:text="Continue" />
 
 </RelativeLayout>
