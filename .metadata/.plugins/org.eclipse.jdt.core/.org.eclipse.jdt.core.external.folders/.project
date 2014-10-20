@@ -12,12 +12,12 @@
 		<link>
 			<name>.link0</name>
 			<type>2</type>
-			<location>C:/adt-bundle-windows-x86_64-20140702_final/adt-bundle-windows-x86_64-20140702_finalz/sdk/sources/android-20</location>
+			<location>C:/adt-bundle-windows-x86_64-20140702_final/adt-bundle-windows-x86_64-20140702_finalz/sdk/sources/android-19</location>
 		</link>
 		<link>
 			<name>.link1</name>
 			<type>2</type>
-			<location>C:/adt-bundle-windows-x86_64-20140702_final/adt-bundle-windows-x86_64-20140702_finalz/sdk/sources/android-19</location>
+			<location>C:/adt-bundle-windows-x86_64-20140702_final/adt-bundle-windows-x86_64-20140702_finalz/sdk/sources/android-20</location>
 		</link>
 	</linkedResources>
 </projectDescription>

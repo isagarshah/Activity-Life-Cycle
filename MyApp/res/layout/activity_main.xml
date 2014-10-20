@@ -6,7 +6,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.myapp.MainActivity" >
+    tools:context="com.example.myapp.MainActivity" 
+    android:background="@drawable/plus">
 
     <TextView
         android:id="@+id/SignUp"
@@ -15,7 +16,8 @@
         android:layout_below="@+id/txtWelcome"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="24dp"
-        android:text="Sign Up or login to protect yourself" />
+        android:text="Sign Up or login to protect yourself" 
+        android:background="#00ffffff"/>
 
     <EditText
         android:id="@+id/etUsername"

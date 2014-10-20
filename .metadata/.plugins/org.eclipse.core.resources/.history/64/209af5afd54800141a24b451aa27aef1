@@ -1,7 +1,0 @@
-package com.example.scrollabletabs;
-
-import android.support.v4.app.Fragment;
-
-public class Frag3 extends Fragment{
-
-}
